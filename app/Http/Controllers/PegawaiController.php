@@ -67,6 +67,15 @@ public function edit($id)
 	return view('data.edit',['pegawai' => $pegawai]);
 
 }
+public function read($id)
+{
+	// mengambil data pegawai berdasarkan id yang dipilih
+	$pegawai = DB::table('pegawai')->where('pegawai_id',$id)->get();
+	$absen = DB::table('absen')->where('IDPegawai',$id)->get();
+	// passing data pegawai yang didapat ke view edit.blade.php
+	return view('data.read',['pegawai' => $pegawai, 'absen' => $absen]);
+
+}
 
 // method untuk hapus data pegawai
 public function hapus($id)

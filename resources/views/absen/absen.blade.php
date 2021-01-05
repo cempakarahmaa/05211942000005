@@ -34,6 +34,7 @@
 						<td>	
 							<a class="btn btn-warning btn-sm text-light " href="{{ url('/absen/edit/' . $a->ID) }}">Edit</a>
 							<a class="btn btn-danger btn-sm text-light" href="{{ url('/absen/hapus/' . $a->ID) }}">Hapus</a>
+							<a class="btn btn-danger btn-sm text-light" href="{{ url('/absen/read/' . $a->ID) }}">Hapus</a>
 						</td>
 					</tr>
 					@endforeach

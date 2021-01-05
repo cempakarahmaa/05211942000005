@@ -36,6 +36,7 @@
 						<td>	
 							<a class="btn btn-warning btn-sm text-light " href="{{ url('/pegawai/edit/' . $p->pegawai_id) }}">Edit</a>
 							<a class="btn btn-danger btn-sm text-light" href="{{ url('/pegawai/hapus/' . $p->pegawai_id) }}">Hapus</a>
+							<a class="btn btn-danger btn-sm text-light" href="{{ url('/pegawai/read/' . $p->pegawai_id) }}">Details</a>
 						</td>
 					</tr>
 					@endforeach
