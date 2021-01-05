@@ -1,0 +1,27 @@
+.pegawai-table {
+    border: solid 1px #66CDAA;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+    }
+.pegawai-table thead th {
+background-color: #DDEFEF;
+border: solid 1px #66CDAA;
+color: #336B6B;
+padding: 10px;
+text-align: center;
+text-shadow: 1px 1px 1px #fff;
+}
+.pegawai-table tbody td {
+border: solid 1px #66CDAA;
+color: #333;
+padding: 10px;
+text-shadow: 1px 1px 1px #fff;
+}
+.pegawai-table-highlight tbody tr:hover {
+background-color: #cfcfea;
+}
+.pegawai-table-horizontal tbody td {
+border-left: solid 1px #66CDAA;
+border-right: solid 1px #66CDAA;
+}
