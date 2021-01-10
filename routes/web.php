@@ -36,3 +36,11 @@ Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update', 'AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
 Route::get('/absen/cari','AbsenController@cari');
+
+Route::get('/mobil', 'MobilController@index');
+Route::get('/mobil/tambah', 'MobilController@tambah');
+Route::post('/mobil/store', 'MobilController@store');
+Route::get('/mobil/edit/{id}','MobilController@edit');
+Route::post('/mobil/update', 'MobilController@update');
+Route::get('/mobil/hapus/{id}','MobilController@hapus');
+Route::get('/mobil/cari','MobilController@cari');
