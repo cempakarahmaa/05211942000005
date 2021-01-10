@@ -25,11 +25,6 @@
 		{{ csrf_field() }}
 		<ul>
 			<li>
-				<label for="kodemobil">Kode Mobil </label>
-				<input type="text" required="required" name="kodemobil" value="{{ $m->kodemobil }}">
-				<span></span>
-			</li>
-			<li>
 				<input type="hidden" name="id" value="{{ $m->kodemobil}}">
 				<label for="merkmobil">Merk Mobil</label>
 				<input type="text" required="required" name="merkmobil" value="{{ $m->merkmobil }}"> <br/>

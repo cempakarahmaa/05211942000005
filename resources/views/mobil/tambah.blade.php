@@ -24,11 +24,6 @@
 		{{ csrf_field() }}
 		<ul>
 			<li>
-				<label for="merkmobil">Kode Mobil</label>
-				<input type="text" required="required" name="merkmobil"> <br/>
-				<span></span>
-			</li>
-			<li>
 				<label for="merkmobil">Merk Mobil</label>
 				<input type="text" required="required" name="merkmobil"> <br/>
 				<span></span>

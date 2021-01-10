@@ -20,7 +20,6 @@
 				<table class="pegawai-table pegawai-table-horizontal pegawai-table-highlight table-center">
 					<thead>
 					<tr>
-						<th>Kode Mobil</th>
 						<th>Merk Mobil</th>
 						<th>Stock Mobil</th>
 						<th>Tersedia</th>
@@ -29,7 +28,6 @@
 					</thead>
 					@foreach($mobil as $m)
 					<tr>
-						<td>{{ $m->kodemobil }}</td>
 						<td>{{ $m->merkmobil }}</td>
 						<td>{{ $m->stockmobil }}</td>
 						<td>{{  $m->tersedia }}</td>
