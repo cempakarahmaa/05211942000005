@@ -4,7 +4,7 @@
 <link rel="stylesheet" type="text/css" href="{{ asset('css/pagination.css') }}">
 @endsection
 
-@section('judulhalaman','Data Pegawai')
+@section('judulhalaman','Data Nilai Kuliah')
 	@section('content')
 			<div class="form-group"> </div>
 				<form action="{{ url('/nilaikuliah/cari') }}" method="GET" class="form-inline">
@@ -41,7 +41,7 @@
 						</td>
 						<td>{{ $n->NilaiAngka * $n->SKS }}</td>
 						<td>
-							<a class="btn btn-danger btn-sm text-light" href="{{ url('/pegawai/hapus/' . $n->ID) }}">Hapus</a>
+							<a class="btn btn-danger btn-sm text-light" href="{{ url('/nilaikuliah/hapus/' . $n->ID) }}">Hapus</a>
 						</td>
 					</tr>
 					@endforeach
