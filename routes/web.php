@@ -44,3 +44,10 @@ Route::get('/mobil/edit/{id}','MobilController@edit');
 Route::post('/mobil/update', 'MobilController@update');
 Route::get('/mobil/hapus/{id}','MobilController@hapus');
 Route::get('/mobil/cari','MobilController@cari');
+
+Route::get('/nilaikuliah', 'NilaiController@index');
+Route::get('/nilaikuliah/tambah', 'NilaiController@tambah');
+Route::get('/nilaikuliah/cari', 'NilaiController@cari');
+Route::post('/nilaikuliah/store', 'NilaiController@store');
+Route::get('/nilaikuliah/hapus/{id}','NilaiController@hapus');
+Route::get('/nilaikuliah/read/{id}','NilaiController@read');

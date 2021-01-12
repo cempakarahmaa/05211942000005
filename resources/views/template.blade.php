@@ -37,6 +37,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="{{url('/mobil')}}">Data Mobil</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url('/nilaikuliah')}}">Nilai Kuliah</a>
+                </li>
             </ul>
         </div>
     </nav>   
